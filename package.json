@@ -1,0 +1,27 @@
+{
+    "title": "Ariane",
+    "name": "erknrio-ariane-theme",
+    "description": "Ariane, a beautiful theme for Brackets",
+    "version": "0.1.0",
+    "author": "erknrio (https://github.com/erknrio)",
+    "homepage": "https://github.com/erknrio/ariane-theme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/erknrio/ariane-theme.git"
+    },
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=1.0.0"
+    },
+    "i18n": [ "en", "es"],
+    "package-i18n": {
+        "es": {
+            "description": "Ariane, una bonita plantilla para Brackets."
+        }
+    },
+    "theme": {
+        "file": "ariane.css",
+        "dark": true
+    },
+    "keywords": ["theme, ariane, ariane theme"]
+}
