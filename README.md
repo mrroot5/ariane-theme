@@ -9,12 +9,12 @@ My custom Brackets theme
 
 ### HTML
 
-![HTML Screenshot](https://github.com/Brackets-Themes/Nature/blob/master/screenshots/HTML.png)
+![HTML Screenshot](https://github.com/erknrio/ariane-theme/blob/master/screenshots/HTML.png)
 
 ### CSS
 
-![CSS Screenshot](https://github.com/Brackets-Themes/Nature/blob/master/screenshots/CSS.png)
+![CSS Screenshot](https://github.com/erknrio/ariane-theme/blob/master/screenshots/CSS.png)
 
 ### JavaScript
 
-![JS Screenshot](https://github.com/Brackets-Themes/Nature/blob/master/screenshots/JS.png)
+![JS Screenshot](https://github.com/erknrio/ariane-theme/blob/master/screenshots/JS.png)
