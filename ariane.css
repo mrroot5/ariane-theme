@@ -39,7 +39,7 @@ indented lines
 /* open/close html tag */
 .cm-bracket		{ color: #d4d4d4; }
 /* html tag */
-.cm-tag			{ color: #d4d4d4; }
+.cm-tag			{ color: #D358F7; }
 /* html attribute */
 .cm-attribute	{ color: #78f2e9; }
 /* oop property */
@@ -94,6 +94,7 @@ indented lines
 
 .CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
     color: #A901DB;
+    background-color: transparent;
 }
 
 /* Matching Brackets and Tags */
@@ -132,34 +133,9 @@ box-shadow: 0 0 1em #0AE0FF;
 */
 
 .CodeMirror-matchingtag {
-    color: trasparent !important;
-    background-color: #0AE0FF;
-    /*-webkit-animation: hilightMB 3s alternate ease-in-out infinite;*/
+    color: inherit;
+    background-color: transparent;
 }
-/*
-@-webkit-keyframes hilightMB {
-0%
-{
-background-color:#7dc773;
-border:1pt solid #F000AC;
-box-shadow: 0 0 1em #FF0AE0;
-}
-
-50%
-{
-background-color: transparent;
-border:1pt solid transparent;
-box-shadow: 0 0 1em transparent;
-}
-
-100%
-{
-background-color:#2f9621;
-border:1pt solid #00ACF0;
-box-shadow: 0 0 1em #0AE0FF;
-}
-}
-*/
 
 .CodeMirror-focused .CodeMirror-activeline .CodeMirror-nonmatchingbracket {
     color: #ff8ef0 !important;

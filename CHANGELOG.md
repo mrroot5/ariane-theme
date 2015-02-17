@@ -1,9 +1,14 @@
 # CHANGELOG Ariane theme
 
-v 0.1.0
+v 0.1.2
 
-* Create a First version
+* Changed HTML styles
+* Added CSS and HTML screenshoots
 
 v 0.1.1
 
-* Change styles
+* Changed styles
+
+v 0.1.0
+
+* Create a First version
