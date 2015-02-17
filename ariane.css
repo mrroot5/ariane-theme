@@ -1,34 +1,72 @@
 /* SWATCHES ---------------------------------------------------------------------- */
+/*
+COLORS:
+#D358F7
+#DF0174
+#01DFD7
+#0000FF
+#B4045F
+#FE642E
+#9F81F7
+#58FA82
+#A901DB
+#8A0868
+*/
 
+/*
+folder list
+.sidebar||#sidebar
+
+open files list
+.avril-parent-work
+
+bottom bar
+.status-bar
+
+Right of page numbers.
+Down arrows for code group
+.CodeMirror-foldgutter
+
+indented lines
+.cm-cm-overlay
+*/
 .cm-builtin     { color: #ff3030; }
+/* variable name */
 .cm-def			{ color: #ff3030; }
 .cm-header      { color: #ff3030; }
+/* php embed script */
 .cm-meta		{ color: #ff3030; }
+/* example: === */
 .cm-operator	{ color: #ff3030; }
 .cm-qualifier	{ color: #ff3030; }
-
+/* example: &ntilde; */
 .cm-atom		{ color: #ff8500; }
 .cm-link		{ color: #ff8500; }
 .cm-number		{ color: #ff8500; }
 .cm-string		{ color: #ff8500; }
 .cm-string-2    { color: #ff8500; }
+/* example: $variable */
 .cm-variable-2	{ color: #78f2e9; }
 .cm-variable-3	{ color: #7dc773; }
-
+/* open/close html tag */
 .cm-bracket		{ color: #d4d4d4; }
+/* html tag */
 .cm-tag			{ color: #d4d4d4; }
-
+/* html attribute */
 .cm-attribute	{ color: #78f2e9; }
+/* oop property */
 .cm-property	{ color: #2f9621; } /* property after string */
 
 .cm-comment		{ color: #2f9621; font-weight: 800;}
 .cm-error		{ color: #ff8500; font-style: italic; font-weight: 800}
 .cm-keyword		{ color: #7dc773; font-weight: 800; }
+/* functions calls */
 .cm-variable	{ color: #2f9621; }
 
 
 /* MISC ---------------------------------------------------------------------- */
 
+/* main content view */
 .CodeMirror,
 .CodeMirror .CodeMirror-scroll {
    background: #000;
@@ -43,12 +81,12 @@
     border-bottom: 2px solid #00ACF0;
     border-left: none;
 }
-
+/* left sidebar with line numbers */
 .CodeMirror-gutters {
    background: #000;
    border-right: 1px solid #222;
 }
-
+/* line numbers */
 .CodeMirror-linenumber {
    color: #00A8C6;
 }
@@ -78,8 +116,9 @@
     border-radius:0.5em;
     border:1pt solid #ff8500;
     background-color: #7dc773;
-    -webkit-animation: hilightMB 2s alternate ease-in-out infinite;
+    /*-webkit-animation: hilightMB 2s alternate ease-in-out infinite;*/
 }
+/*
 @-webkit-keyframes hilightMB {
     0%
     {
@@ -102,12 +141,14 @@
         box-shadow: 0 0 1em #0AE0FF;
     }
 }
+*/
 
 .CodeMirror-matchingtag {
 color: trasparent !important;
     background-color: #0AE0FF;
-    -webkit-animation: hilightMB 3s alternate ease-in-out infinite;
+    /*-webkit-animation: hilightMB 3s alternate ease-in-out infinite;*/
 }
+/*
 @-webkit-keyframes hilightMB {
     0%
     {
@@ -130,6 +171,7 @@ color: trasparent !important;
         box-shadow: 0 0 1em #0AE0FF;
     }
 }
+*/
 
 .CodeMirror-focused .CodeMirror-activeline .CodeMirror-nonmatchingbracket {
    color: #ff8ef0 !important;
