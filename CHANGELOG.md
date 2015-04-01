@@ -1,5 +1,11 @@
 # CHANGELOG Ariane theme
 
+v0.2.2
+
+* Added JS screenshot
+* Removed old empty screenshots
+* Updated TODO
+
 v 0.2.1
 
 * Updated README.md
