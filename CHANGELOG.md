@@ -1,5 +1,9 @@
 # CHANGELOG Ariane theme
 
+v 0.2.0
+
+* Added animation to bracket
+
 v 0.1.2
 
 * Changed HTML styles
