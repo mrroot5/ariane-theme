@@ -1,10 +1,6 @@
 # Ariane Theme
 Ariane is a template based on Denisov21's template "Nature". It is purple-based.
 
-## License
-
-Theme under MIT license [`LICENSE`](LICENSE)
-
 ## Screenshot
 
 ### HTML
@@ -22,3 +18,12 @@ Theme under MIT license [`LICENSE`](LICENSE)
 ## Changelog
 
 [Changelog](https://github.com/erknrio/ariane-theme/blob/master/CHANGELOG.md)
+
+
+## TODO
+
+[TODO](https://github.com/erknrio/ariane-theme/blob/master/TODO.md)
+
+## License
+
+Theme under MIT license [`LICENSE`](LICENSE)

@@ -1,5 +1,9 @@
 # CHANGELOG Ariane theme
 
+v 0.2.1
+
+* Updated README.md
+
 v 0.2.0
 
 * Added animation to bracket
