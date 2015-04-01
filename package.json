@@ -1,8 +1,8 @@
 {
     "title": "Ariane",
     "name": "erknrio-ariane-theme",
-    "description": "Ariane, a beautiful theme for Brackets",
-    "version": "0.2.1",
+    "description": "Ariane, a beautiful purple theme for Brackets",
+    "version": "0.2.2",
     "author": "erknrio (https://github.com/erknrio)",
     "homepage": "https://github.com/erknrio/ariane-theme",
     "repository": {
@@ -16,12 +16,12 @@
     "i18n": [ "en", "es"],
     "package-i18n": {
         "es": {
-            "description": "Ariane, una bonita plantilla para Brackets."
+            "description": "Ariane, una bonita plantilla púrpura para Brackets."
         }
     },
     "theme": {
         "file": "ariane.css",
         "dark": true
     },
-    "keywords": ["theme, ariane, ariane theme"]
+    "keywords": ["ariane, ariane theme, purple, purple theme, violet, violet theme, theme"]
 }
