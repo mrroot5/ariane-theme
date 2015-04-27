@@ -1,0 +1,140 @@
+@primary: #a901db;
+@secondary: #ff3030;
+
+.cm-builtin     { color: @secondary; }
+/* variable name */
+.cm-def			{ color: #df0174; }
+.cm-header      { color: @secondary; }
+/* php embed script */
+.cm-meta		{ color: @secondary; }
+/* example: === */
+.cm-operator	{ color: @secondary; }
+.cm-qualifier	{ color: @secondary; }
+/* example: &ntilde; */
+.cm-atom		{ color: @primary; }
+.cm-link		{ color: #ff8500; }
+.cm-number		{ color: @primary; }
+.cm-string		{ color: @primary; }
+.cm-string-2    { color: @secondary; }
+/* functions calls */
+.cm-variable	{ color: #d358f7; }
+/* example: $variable */
+.cm-variable-2	{ color: #7dc773; }
+.cm-variable-3	{ color: #58FA82; }
+/* open/close html tag */
+.cm-bracket		{ color: #d4d4d4; }
+/* html tag */
+.cm-tag			{ color: #df0174; }
+/* html attribute */
+.cm-attribute	{ color: #78f2e9; }
+/* oop property */
+.cm-property	{ color: #2f9621; }/* property after string */
+
+.cm-comment		{ color: #767676;}
+.cm-error		{ color: #fff; background-color: #fe642e; font-style: italic; font-weight: bold}
+.cm-keyword		{ color: #a60b7d; font-weight: bold; }
+
+/* MISC ---------------------------------------------------------------------- */
+/* main content view */
+.CodeMirror,
+.CodeMirror .CodeMirror-scroll {
+    background-color: @background;
+    color: #bab0f1;
+}
+
+.CodeMirror-cursor {
+    border-left: 2px solid @primary;
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-bottom: 2px solid #ff8500;
+    border-left: none;
+}
+/* left sidebar with line numbers */
+.CodeMirror-gutters {
+    background: @background;
+    border-right: 1px solid #222;
+}
+/* line numbers */
+.CodeMirror-linenumber {
+    color: #00A8C6;
+}
+
+.CodeMirror-selected {
+    background-color: #9F81F7;
+    opacity: 0.5;
+}
+
+/* Active Line */
+.CodeMirror-activeline-background {
+    background-color: @primary !important;
+    opacity: 0.35;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+    color: @primary;
+    background-color: transparent;
+}
+
+/* Matching Brackets and Tags */
+.CodeMirror-matchingbracket {
+    color: #40ff00 !important;
+    box-shadow: 0 0 1em @secondary;
+    border-radius:0.5em;
+    border:1pt solid #78f2e9;
+    background-color: #ff8500;
+    -webkit-animation: hilightMB 2s alternate ease-in-out infinite;
+}
+
+@-webkit-keyframes hilightMB {
+    0%
+    {
+    background-color:#d358f7;
+    border:1pt solid @primary;
+    box-shadow: 0 0 1em @primary;
+    }
+
+    50%
+    {
+    background-color: transparent;
+    border:1pt solid transparent;
+    box-shadow: 0 0 1em transparent;
+    }
+
+    100%
+    {
+    background-color:#0ae0ff;
+    border:1pt solid #00ACF0;
+    box-shadow: 0 0 1em #0ae0ff;
+    }
+}
+
+.CodeMirror-matchingtag {
+    color: inherit;
+    background-color: transparent;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-nonmatchingbracket {
+    color: #ff8ef0 !important;
+}
+
+/* Search Match */
+
+.CodeMirror-searching {
+    background-color: #1a9163;
+}
+
+.CodeMirror-searching.searching-current-match {
+    background-color: #ff8500;
+}
+
+/* Non-editor styling */
+.image-view,
+.not-editor {
+    background-color: @background;
+}
+
+
+.view-pane .image-view {
+    color: @foreground;
+}
