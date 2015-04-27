@@ -1,5 +1,9 @@
 # CHANGELOG Ariane theme
 
+v1.0.0
+* Created ariane.less
+* Added to extension registry
+
 v0.2.2
 
 * Added JS screenshot
