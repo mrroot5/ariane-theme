@@ -1,3 +1,5 @@
+@background: #000;
+@foreground: #ddd;
 @primary: #a901db;
 @secondary: #ff3030;
 
@@ -57,11 +59,11 @@
 }
 /* line numbers */
 .CodeMirror-linenumber {
-    color: #00A8C6;
+    color: #00a8c6;
 }
 
 .CodeMirror-selected {
-    background-color: #9F81F7;
+    background-color: #9f81f7;
     opacity: 0.5;
 }
 
@@ -104,7 +106,7 @@
     100%
     {
     background-color:#0ae0ff;
-    border:1pt solid #00ACF0;
+    border:1pt solid #00acf0;
     box-shadow: 0 0 1em #0ae0ff;
     }
 }
@@ -137,4 +139,24 @@
 
 .view-pane .image-view {
     color: @foreground;
+}
+
+/* API Change 1.3 */
+.CodeMirror-foldgutter-open:after {
+    color: #666;
+}
+.CodeMirror-foldgutter-folded:after {
+    color: #aaa;
+}
+
+.CodeMirror.over-gutter, .CodeMirror-activeline {
+    .CodeMirror-foldgutter-open:after {
+        color: #888;
+    }
+}
+
+.CodeMirror-foldmarker {
+    border-color: #000;
+    color: #2f9621;
+    background-color: rgba(168, 1, 219, 0.8);
 }

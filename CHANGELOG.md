@@ -1,6 +1,11 @@
 # CHANGELOG Ariane theme
 
+v1.1.0
+
+* Update styles for new API changes on brackets 1.3
+
 v1.0.0
+
 * Created ariane.less
 * Added to extension registry
 

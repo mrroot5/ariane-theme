@@ -44,11 +44,9 @@
 .cm-variable-2 {
   color: #7dc773;
 }
-/*#78f2e9*/
 .cm-variable-3 {
   color: #58FA82;
 }
-/*#7dc773*/
 /* open/close html tag */
 .cm-bracket {
   color: #d4d4d4;
@@ -69,7 +67,6 @@
 .cm-comment {
   color: #767676;
 }
-/*#2f9621*/
 .cm-error {
   color: #fff;
   background-color: #fe642e;
@@ -77,7 +74,7 @@
   font-weight: bold;
 }
 .cm-keyword {
-  color: #a60b7d /*#8A0868*/;
+  color: #a60b7d;
   font-weight: bold;
 }
 /* MISC ---------------------------------------------------------------------- */
@@ -89,11 +86,9 @@
 }
 .CodeMirror-cursor {
   border-left: 2px solid #a901db;
-  /*#ff8500*/
 }
 .CodeMirror-overwrite .CodeMirror-cursor {
   border-bottom: 2px solid #ff8500;
-  /*#00ACF0*/
   border-left: none;
 }
 /* left sidebar with line numbers */
@@ -103,18 +98,14 @@
 }
 /* line numbers */
 .CodeMirror-linenumber {
-  color: #00A8C6;
+  color: #00a8c6;
 }
 .CodeMirror-selected {
-  /*background: rgb(48, 139, 139);
-    background: rgba(48, 139, 139, 0.53);*/
-  background-color: #9F81F7;
+  background-color: #9f81f7;
   opacity: 0.5;
 }
 /* Active Line */
 .CodeMirror-activeline-background {
-  /*background: rgb(47, 150, 33);
-    background: rgba(47, 150, 33, 0.35) !important;*/
   background-color: #a901db !important;
   opacity: 0.35;
 }
@@ -125,23 +116,17 @@
 /* Matching Brackets and Tags */
 .CodeMirror-matchingbracket {
   color: #40ff00 !important;
-  /*#d4d4d4 !important;*/
   box-shadow: 0 0 1em #ff3030;
   border-radius: 0.5em;
   border: 1pt solid #78f2e9;
-  /*#ff8500*/
   background-color: #ff8500;
-  /*#7dc773*/
   -webkit-animation: hilightMB 2s alternate ease-in-out infinite;
 }
 @-webkit-keyframes hilightMB {
   0% {
     background-color: #d358f7;
-    /*ff8500*/
     border: 1pt solid #a901db;
-    /*F000AC*/
     box-shadow: 0 0 1em #a901db;
-    /*FF0AE0*/
   }
   50% {
     background-color: transparent;
@@ -150,7 +135,7 @@
   }
   100% {
     background-color: #0ae0ff;
-    border: 1pt solid #00ACF0;
+    border: 1pt solid #00acf0;
     box-shadow: 0 0 1em #0ae0ff;
   }
 }
@@ -175,4 +160,20 @@
 }
 .view-pane .image-view {
   color: #dddddd;
+}
+/* API Change 1.3 */
+.CodeMirror-foldgutter-open:after {
+  color: #666;
+}
+.CodeMirror-foldgutter-folded:after {
+  color: #aaa;
+}
+.CodeMirror.over-gutter .CodeMirror-foldgutter-open:after,
+.CodeMirror-activeline .CodeMirror-foldgutter-open:after {
+  color: #888;
+}
+.CodeMirror-foldmarker {
+  border-color: #000;
+  color: #2f9621;
+  background-color: rgba(168, 1, 219, 0.8);
 }
