@@ -20,7 +20,7 @@
         }
     },
     "theme": {
-        "file": "ariane.css",
+        "file": "ariane.less",
         "dark": true
     },
     "keywords": ["ariane, ariane theme, purple, purple theme, violet, violet theme, theme"]

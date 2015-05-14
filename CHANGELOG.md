@@ -1,5 +1,9 @@
 # CHANGELOG Ariane theme
 
+v1.1.1
+
+* Updated package.json. Now points to the correct file
+
 v1.1.0
 
 * Update styles for new API changes on brackets 1.3
