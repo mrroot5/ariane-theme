@@ -15,7 +15,7 @@ Ariane is a template based on Denisov21's template "Nature". It is purple-based.
 
 ![JS Screenshot](https://github.com/erknrio/ariane-theme/blob/master/screenshots/js.jpg)
 
-### JavaScript
+### PHP
 
 ![PHP Screenshot](https://github.com/erknrio/ariane-theme/blob/master/screenshots/php.jpg)
 
