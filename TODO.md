@@ -1,4 +1,5 @@
 # TODO Ariane theme
+* Add Changelog window.
 * Add animated image with brackets example.
 * ~~ Update styles for new API changes on brackets 1.3 ~~
 * ~~Add JavaScript screenshot.~~
