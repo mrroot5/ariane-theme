@@ -1,4 +1,7 @@
 # Ariane Theme
+
+**This repo is not maintaned anymore**.
+
 Ariane is a template based on Denisov21's template "Nature". It is purple-based.
 
 ## Screenshot
